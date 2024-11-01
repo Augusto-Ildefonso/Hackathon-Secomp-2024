@@ -1,7 +1,7 @@
 import init, * as wasm from "./wasm.js"
 
-const WIDTH = 64
-const HEIGHT = 32
+const WIDTH = 120
+const HEIGHT = 50
 const SCALE = 15
 const TICKS_PER_FRAME = 10
 let anim_frame = 0
