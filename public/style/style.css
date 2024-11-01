@@ -54,7 +54,7 @@ body{
 
 .jogos img {
     margin: 2%;
-    width: 550px; 
+    width: 70%; 
     height: auto;
     cursor: pointer;
     border-radius: 15px;
