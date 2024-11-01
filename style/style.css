@@ -43,3 +43,16 @@ body{
     max-width: 1400px; /* Define um limite máximo para a largura em telas grandes */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
 }
+
+.jogos{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center
+}
+
+.jogos img {
+    margin: 2%;
+    width: 550px; 
+    height: auto; 
+}
