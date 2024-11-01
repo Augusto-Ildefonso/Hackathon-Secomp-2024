@@ -1,4 +1,5 @@
 function mudarPagina(jogo) {
+    window.location.href = "./jogo.html";
     async function getJogo(jogo) {
         try {
             const response = await fetch("http://localhost:3000/jogos", {
@@ -31,7 +32,6 @@ function mudarPagina(jogo) {
 
     // Chama a função para buscar o jogo
     getJogo(jogo);
-    window.location.href = "./jogo.html";
 }
 
 function mudarNome({jogo}) {
