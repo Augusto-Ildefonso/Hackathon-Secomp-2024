@@ -31,4 +31,10 @@ function mudarPagina(jogo) {
 
     // Chama a função para buscar o jogo
     getJogo(jogo);
+    window.location.href = "./jogo.html";
+}
+
+function mudarNome({jogo}) {
+    var titulo = jogo;
+    document.title = titulo;
 }
