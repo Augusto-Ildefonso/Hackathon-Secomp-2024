@@ -7,3 +7,18 @@ body{
 .custom-navbar{
     background-color: #6100C9;
 }
+
+#canvas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+#nome-jogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
